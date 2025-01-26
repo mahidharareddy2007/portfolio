@@ -1,0 +1,129 @@
+#navbar{
+    position: sticky;
+    height: 10vh;
+    color: white;
+    background-color: black;
+    border-radius: 15%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+#navbar:hover{
+    transform: scale(1.1);
+}
+.logo{
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.logo:hover{
+    transform: scale(1.1);
+}
+.intro{
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.intro:hover{
+    transform: scale(1.1);
+}
+a{
+    margin-right: 3vh;
+}
+body{
+    background-color: rgb(105, 35, 219);
+}
+h2{
+    background-color : rgb(45, 161, 194);
+    text-align: center;
+    text-emphasis-color: black;
+    border-radius: 100%;
+}
+h3{
+    text-align: center;
+}
+ul{
+    text-align: center;
+}
+#box1{
+    height: 128vh;
+    width: 95vw;
+    background-color: white;
+    border-radius: 10%;
+    border:1vh solid black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+#box2{
+    height: 124vh;
+    width: 90vw;
+    background-color: rgb(144, 43, 226);
+    border-radius: 10%;
+    border:0.5vh solid black;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.resimg{
+    width: 60vw;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+.resimg2{
+    width: 60vw;
+}
+.expand-btn{
+    background-color: black;
+    color: white;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.expand-btn:hover{
+    transform: scale(1.1);
+}
+.expandable-content{
+    display: none;
+    padding: 10px;
+    border-radius: 20%;
+    background-color: lightgray;
+}
+#visit{
+    height: 4vh;
+    width: device-width;
+    background-color: #4CAF50;
+    border-radius: 3vh;
+}
+#showVisitors{
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 10%;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+#showVisitors:hover{
+    transform: scale(1.1);
+}
+#visitor-list {
+    margin: 20px auto;
+    padding: 10px;
+    max-width: 400px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+#vl{
+    background-color: #4CAF50;
+    text-align: center;
+    text-emphasis-color: black;
+    border-radius: 10%;
+}
+#visitor-data {
+    list-style-type: none;
+    padding: 0;
+}
